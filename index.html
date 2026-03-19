@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taniti Tourism</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Taniti</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#attractions">Attractions</a>
+      <a href="#lodging">Lodging</a>
+      <a href="#trip-planner">Trip Planner</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Explore Taniti</h1>
+        <p>Your island getaway for beaches, rainforest adventures, local dining, and unforgettable sightseeing.</p>
+        <div class="hero-buttons">
+          <a href="#attractions" class="btn">Explore</a>
+          <a href="#lodging" class="btn">Lodging</a>
+          <a href="#trip-planner" class="btn">Plan Trip</a>
+        </div>
+      </div>
+    </section>
+
+<section class="weather">
+  <h2>Weather</h2>
+  <p id="weather-info">Loading weather...</p>
+</section>
+
+    <section id="attractions">
+      <h2>Things To Do</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Beaches</h3>
+          <p>Relax around Yellow Leaf Bay and enjoy white sandy beaches.</p>
+        </div>
+        <div class="card">
+          <h3>Rainforest</h3>
+          <p>Take a guided hike or zip-line through the tropical rainforest.</p>
+        </div>
+        <div class="card">
+          <h3>Volcano</h3>
+          <p>Visit Taniti’s active volcano and enjoy scenic sightseeing tours.</p>
+        </div>
+        <div class="card">
+          <h3>Local Tours</h3>
+          <p>Explore the island by bus, boat, or chartered excursion.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="lodging">
+      <h2>Lodging</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Hotels</h3>
+          <p>Comfortable hotel options near major attractions.</p>
+        </div>
+        <div class="card">
+          <h3>Resort</h3>
+          <p>Stay at Taniti’s large four-star resort.</p>
+        </div>
+        <div class="card">
+          <h3>Bed & Breakfast</h3>
+          <p>Enjoy a more personal stay with family-owned lodging.</p>
+        </div>
+        <div class="card">
+          <h3>Budget Stay</h3>
+          <p>Affordable hostels and smaller lodging options.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="food">
+      <h2>Food & Dining</h2>
+      <div class="card-grid">
+        <div class="card">Local Fish & Rice</div>
+        <div class="card">American-Style Meals</div>
+        <div class="card">Pan-Asian Cuisine</div>
+        <div class="card">Pubs & Microbrewery</div>
+      </div>
+    </section>
+
+    <section id="trip-planner">
+      <h2>Trip Planner</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Transportation</h3>
+          <p>Travel by air or cruise ship, then get around by bus, taxi, rental car, or bike.</p>
+        </div>
+        <div class="card">
+          <h3>Currency</h3>
+          <p>Taniti uses the U.S. dollar, with euros and yen accepted in many places.</p>
+        </div>
+        <div class="card">
+          <h3>Safety</h3>
+          <p>Violent crime is rare, though travelers should watch for petty theft.</p>
+        </div>
+        <div class="card">
+          <h3>Travel Tips</h3>
+          <p>Some businesses close on holidays, and English is less common in rural areas.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Taniti Tourism Prototype</p>
+    <div class="footer-links">
+      <a href="#contact">Contact</a>
+      <a href="#home">Back to Top</a>
+    </div>
+  </footer>
+</body>
+<script>
+const weatherText = document.getElementById("weather-info");
+
+const weatherOptions = [
+  "Sunny, 28°C",
+  "Partly Cloudy, 27°C",
+  "Light Rain, 26°C"
+];
+
+const randomWeather = weatherOptions[Math.floor(Math.random() * weatherOptions.length)];
+
+weatherText.innerText = `Current weather: ${randomWeather}`;
+</script>
+</html>
