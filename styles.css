@@ -150,3 +150,48 @@ footer {
   margin: 0 10px;
   text-decoration: none;
 }
+
+.activity-details h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.details-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.details-image {
+  flex: 1;
+}
+
+.details-image img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.details-info {
+  flex: 1;
+}
+
+.details-info h2 {
+  margin-bottom: 15px;
+  color: #0d3b66;
+}
+
+.details-info p {
+  margin-bottom: 15px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #e76f51;
+}
+
+.details-info .btn {
+  margin-top: 10px;
+}
