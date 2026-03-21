@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plan Your Trip to Taniti</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Taniti</div>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./attractions.html">Attractions</a>
+      <a href="./lodging.html">Lodging</a>
+      <a href="./trip-planner.html">Trip Planner</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="trip-page">
+      <h1>Plan Your Trip to Taniti</h1>
+      <p class="page-intro">
+        Use this page to organize transportation, review travel details, and build a simple itinerary for your stay.
+      </p>
+      <section class="travel-info">
+        <h2>Travel Information</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>Transportation</h3>
+            <p>
+              Visitors arrive by air or cruise ship and can get around Taniti by bus, taxi,
+              rental car, or bike.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Map & Getting Around</h3>
+            <p>
+              Taniti City is walkable, while Merriton Landing is easy to explore on foot.
+              Public and private buses serve other areas of the island.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Currency</h3>
+            <p>
+              Taniti uses the U.S. dollar, though many businesses also accept euros and yen.
+              Major credit cards are accepted in many places.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Safety</h3>
+            <p>
+              Violent crime is rare, but visitors should stay aware of petty theft and plan
+              around holiday closures at attractions and restaurants.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="itinerary-builder">
+        <h2>Build Your Itinerary</h2>
+        <form class="trip-form">
+          <label for="trip-name">Traveler Name</label>
+          <input type="text" id="trip-name" placeholder="Enter your name" />
+
+          <label for="trip-days">Length of Stay</label>
+          <select id="trip-days">
+            <option>2 Days</option>
+            <option>4 Days</option>
+            <option>7 Days</option>
+            <option>10 Days</option>
+          </select>
+          <label for="trip-activity">Choose an Activity</label>
+          <select id="trip-activity">
+            <option>Beaches</option>
+            <option>Rainforest Tour</option>
+            <option>Volcano Visit</option>
+            <option>Boat Tour</option>
+          </select>
+          <label for="trip-lodging">Choose Lodging</label>
+          <select id="trip-lodging">
+            <option>Hotel</option>
+            <option>Resort</option>
+            <option>Bed & Breakfast</option>
+            <option>Budget Stay</option>
+          </select>
+          <label for="trip-notes">Trip Notes</label>
+          <textarea id="trip-notes" placeholder="Add reminders or special plans"></textarea>
+          <button type="submit">Save Plan</button>
+        </form>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>Taniti Tourism Prototype</p>
+    <div class="footer-links">
+      <a href="#contact">Contact</a>
+      <a href="./index.html">Back to Home</a>
+    </div>
+  </footer>
+</body>
+</html>
