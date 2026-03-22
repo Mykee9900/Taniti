@@ -47,7 +47,7 @@ nav a:hover {
   padding: 100px 20px;
 }
 
-.hero-text {
+.heroText {
   max-width: 700px;
   margin: 0 auto;
 }
@@ -57,7 +57,7 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-.hero-buttons {
+.heroButtons {
   margin-top: 20px;
 }
 
@@ -145,13 +145,13 @@ footer {
   padding: 20px;
 }
 
-.footer-links a {
+.footerLinks a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
 }
 
-.activity-details h1 {
+.activityDetails h1 {
   text-align: center;
   margin-bottom: 30px;
 }
@@ -163,26 +163,26 @@ footer {
   flex-wrap: wrap;
 }
 
-.details-image {
+.detailsImage {
   flex: 1;
 }
 
-.details-image img {
+.detailsImage img {
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
 }
 
-.details-info {
+.detailsInfo {
   flex: 1;
 }
 
-.details-info h2 {
+.detailsInfo h2 {
   margin-bottom: 15px;
   color: #0d3b66;
 }
 
-.details-info p {
+.detailsInfo p {
   margin-bottom: 15px;
 }
 
@@ -192,11 +192,11 @@ footer {
   color: #e76f51;
 }
 
-.details-info .btn {
+.detailsInfo .btn {
   margin-top: 10px;
 }
 
-.lodging-page h1 {
+.lodgingPage h1 {
   text-align: center;
   margin-bottom: 10px;
   color: #0d3b66;
@@ -208,24 +208,24 @@ footer {
   margin: 0 auto 30px;
 }
 
-.lodging-filters {
+.lodgingFilters {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.lodging-filters h2 {
+.lodgingFilters h2 {
   margin-bottom: 15px;
   color: #0d3b66;
 }
 
-.filter-buttons {
+.filterBtns {
   display: flex;
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-.filter-buttons button {
+.filterBtns button {
   background-color: #f4a261;
   color: #222;
   border: none;
@@ -235,7 +235,7 @@ footer {
   font-weight: bold;
 }
 
-.filter-buttons button:hover {
+.filterBtns button:hover {
   background-color: #e08b46;
 }
 
